@@ -1,0 +1,37 @@
+# ---- Xcode：用户级设置 ----
+# 每台机器/每个人不同，不该提交；否则每次改 scheme、断点、窗口状态都会产生 diff
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+# ---- 构建产物 ----
+build/
+DerivedData/
+*.ipa
+*.dSYM
+*.dSYM.zip
+*.xcarchive
+
+# ---- Swift Package Manager ----
+.build/
+.swiftpm/
+# 注意：Package.resolved 应当提交（用于锁定依赖版本），因此故意不忽略
+
+# ---- 依赖管理（目前没用到，先留着）----
+Pods/
+Carthage/Build/
+
+# ---- macOS ----
+.DS_Store
+.AppleDouble
+.LSOverride
