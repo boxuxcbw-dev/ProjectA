@@ -62,4 +62,4 @@ xcrun simctl launch booted DuoDuoYS.Project-A
 ## 仓库
 
 - 默认分支：`main`
-- 远端：待创建（`boxuxcbw-dev/ProjectA`），创建后补上 URL
+- 远端：`git@github.com:boxuxcbw-dev/ProjectA.git`（https://github.com/boxuxcbw-dev/ProjectA）
